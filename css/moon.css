@@ -194,12 +194,15 @@ a:hover, a:active, a:focus{
 
     /* make these 50% the width of the footer */
 }
+
+    
 @media screen and (max-width: 1000px) {
     p {
         font-size: 80%;
     }
     h1 {
         font-size: 4.236rem;
+        width: 40%;
     }
     h2 {
         font-size: 2.618rem;
