@@ -38,6 +38,7 @@ body{
 	background-color: #222;
     
     
+    
 }
 h1, h2, h3, h4{
 	font-family: 'Droid Serif', serif;  /* you need a font stack here */
@@ -132,6 +133,7 @@ a:hover, a:active, a:focus{
 }
 .footer{
     background-color: #333333;
+    width: 100%;
 	
 }
 
@@ -187,7 +189,26 @@ a:hover, a:active, a:focus{
 .footer li{
     margin-top: 20px;
     float:left;
-    width: 460px;
+    width: 50%;
+   
 
     /* make these 50% the width of the footer */
+}
+@media screen and (max-width: 1000px) {
+    p {
+        font-size: 80%;
+    }
+    h1 {
+        font-size: 4.236rem;
+    }
+    h2 {
+        font-size: 2.618rem;
+    }
+    h3 {
+        font-size: 1.618rem;
+    }
+    a {
+        font-size: 80%;
+    }
+        
 }
